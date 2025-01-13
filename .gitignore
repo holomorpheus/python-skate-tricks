@@ -1,13 +1,18 @@
-# Any virtual environment
+# Python project exclusion standard
+## Any virtual environment
 .env/
 .venv/
 
-# IDE
+## IDE
 .idea/
 .vscode/
 
-# Compiled files (keep files as cache for faster execution)
+## Compiled files (keep files as cache for faster execution)
 *.pyc
 *.pyo
 *.pyd
 __pycache__/
+
+# I/O exlcusions
+images/
+videos/
